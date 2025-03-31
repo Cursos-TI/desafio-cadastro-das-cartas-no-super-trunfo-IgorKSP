@@ -56,7 +56,7 @@ int main() {
         /*Calculos das variaves adicionais*/
         cart[i].densidade = cart[i].populacao / cart[i].area;
         cart[i].PIBC = cart[i].PIB / cart[i].populacao;
-        cart[i].Super = cart[i].populacao + cart[i].area + cart[i].PIB + cart[i].turist + cart[i].PIBC + 1 / cart[i].densidade;
+        cart[i].Super = cart[i].populacao + cart[i].area + cart[i].PIB + cart[i].turist + cart[i].PIBC + (1 / cart[i].densidade);
         getchar(); /*função utilizada para limpar o fgets, para não bugar na captura da segunda carta*/
     }
 
